@@ -24,25 +24,25 @@ In this challenge, create a web API around the following resources: `Projects` a
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Mention two parts of Express that you learned about this week.
+- [x] Mention two parts of Express that you learned about this week.
 
     I learned that the purpose of the server is to listen for request, and then perform whatever the action required to satisfy the specific request. 
 
     Express use app.get() to register routes to match GET requests. 
 
-- [ ] Describe Middleware?
+- [x] Describe Middleware?
 
     Functions used to execute during a request to teh Express server. Each middleware has access to HTTP req and res for each route it is attached to.
 
-- [ ] Describe a Resource?
+- [x] Describe a Resource?
 
     It is a object used to add value/information. 
 
-- [ ] What can the API return to help clients know if a request was successful?
+- [x] What can the API return to help clients know if a request was successful?
 
     It returns a status code/update , the type determines whether req was successful or not, and why. 
 
-- [ ] How can we partition our application into sub-applications?
+- [x] How can we partition our application into sub-applications?
 
     By breaking it down into smaller files/routes. It is cleaner, more manageble, and predictable similar to React/Redux. 
 
