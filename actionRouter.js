@@ -56,7 +56,7 @@ router.use(express.json())
         }
     })
     .catch(error =>{
-        res.status(500).json({  message: "User not be removed"})
+        res.status(500).json({  message: "User may  not be removed"})
      })
 })
 

@@ -26,9 +26,9 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [x] Mention two parts of Express that you learned about this week.
 
-    I learned that the purpose of the server is to listen for request, and then perform whatever the action required to satisfy the specific request. 
+    I learned that the purpose of the server is to listen for request, and then perform whatever the action required to satisfy the specific request. , if our server receives a GET request at ‘/foobar  we use a route to define the appropriate functionality for that HTTTP verb(GET) and a path (/foobar)
 
-    Express use app.get() to register routes to match GET requests. 
+    HTTP follows a one request-one response cycle. Each client expects exactly one response per request, and each server should only send a single response back to the client per request.
 
 - [x] Describe Middleware?
 
@@ -36,7 +36,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [x] Describe a Resource?
 
-    It is a object used to add value/information. 
+    It is a object used to add value/information.  It is pretty much the data we add to the appilication. Depending on what the desires of the client are. 
 
 - [x] What can the API return to help clients know if a request was successful?
 
